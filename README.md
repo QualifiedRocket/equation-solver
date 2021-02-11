@@ -3,45 +3,45 @@ Factor and solve math functions using C#
 
 
 
-Required steps to implement:
-    Gather information:
-        Ask what type of equation to answer
-        User enters equation
-
-    Sort information:
-        Determine degree of equation, d
-        Create containers for each value, starting d-n
-            Array of arrays? [ax^d][bx^d-1][cx^d-2]...[px^0][q]
-        Store data as a "history" to call upon later?
-
-    Gather more information:
-        Ask to either solve for input y value, or factor
-        Start with implementing single variable x, move on to implementing multi-variable functions later
-
-    For input y, just do basic calculations and return
-
-    For factoring:
-        Start with common factors, both numerically and with x
-        Remove common x first
-        Test a values against factors (except 1) of smallest b value, a % b == 0;
-        Remove largest common factor discovered
-        (ax) is now a factor
-        Continue factoring until no powers remain, or it becomes unfactorable.
-            Retrieve imaginary factors, or leave as unfactorable? Implement both?
-    
-    Return solution to user:
-        Print results to user
-        Ask if there are any more equations, then either restart or exit the program
-
-
-
-Ideas to implement in the future:
-    Create a basic GUI to enter function / select options with
-    Graph functions using a "Graph Now" button. Possibly move to real-time graphing later
-    Include other types of equations:
-        - Polynomial
-        - Rational
-        - Exponential
-        - Logarithmic
-        - Trigonometric
-    Store values as a "history" to be accessed later
+#   Required steps to implement:
+#       Gather information:
+#           Ask what type of equation to answer
+#           User enters equation
+#
+#       Sort information:
+#           Determine degree of equation, d
+#           Create containers for each value, starting d-n
+#               Array of arrays? [ax^d][bx^d-1][cx^d-2]...[px^0][q]
+#           Store data as a "history" to call upon later?
+#
+#       Gather more information:
+#           Ask to either solve for input y value, or factor
+#           Start with implementing single variable x, move on to implementing multi-variable functions later
+#
+#       For input y, just do basic calculations and return
+#
+#       For factoring:
+#           Start with common factors, both numerically and with x
+#           Remove common x first
+#           Test a values against factors (except 1) of smallest b value, a % b == 0;
+#           Remove largest common factor discovered
+#           (ax) is now a factor
+#           Continue factoring until no powers remain, or it becomes unfactorable.
+#               Retrieve imaginary factors, or leave as unfactorable? Implement both?
+#       
+#       Return solution to user:
+#           Print results to user
+#           Ask if there are any more equations, then either restart or exit the program
+#
+#
+#
+#   Ideas to implement in the future:
+#       Create a basic GUI to enter function / select options with
+#       Graph functions using a "Graph Now" button. Possibly move to real-time graphing later
+#       Include other types of equations:
+#           - Polynomial
+#           - Rational
+#           - Exponential
+#           - Logarithmic
+#           - Trigonometric
+#       Store values as a "history" to be accessed later
