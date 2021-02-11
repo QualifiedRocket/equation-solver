@@ -1,2 +1,2 @@
 # equation-solver
-Factor and solve typed math functions using C#
+Factor and solve math functions using C#
