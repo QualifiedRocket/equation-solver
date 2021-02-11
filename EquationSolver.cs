@@ -9,30 +9,6 @@ namespace EquationSolverProject
         static void Main()
         {
 
-            /* - Ask what type of equation to answer
-             * - Enter equation
-             * - Determine degree of equation, d
-             * - Create containers for each value, starting d-n
-             * - Array of arrays? [ax^d][bx^d-1][cx^d-2]...[px^0][q]
-             * - Store data as a "history" to call upon later?
-             * 
-             * - Ask to either solve for input y value, or factor
-             * - Start with single variable x, move on to xy later
-             * - For input y, just do basic calculations and return
-             * - For factoring:
-             *  - Start with common factors, both numerically and with x
-             *  - Remove common x first
-             *  - Test a values against factors (except 1) of smallest b value, a % b == 0;
-             *  - Remove largest common factor discovered
-             *  - (ax) is now a factor
-             * - Continue factoring until no powers remain, or it becomes unfactorable.
-             *  - Get imaginary factors?
-             * - Print results
-             * 
-             * - Ask if there are any more equations, then restart / exit
-             */
-
-
             bool programRunning = true;
             while (programRunning)
             {
