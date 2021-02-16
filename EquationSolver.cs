@@ -13,7 +13,7 @@ namespace EquationSolverProject
             while (programRunning)
             {
 
-                
+                SelectEquation();
                 LinearEquation();
                 RunAgainPrompt();
 
