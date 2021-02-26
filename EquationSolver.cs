@@ -14,8 +14,9 @@ namespace EquationSolverProject
             {
 
                 SelectEquation();
-                LinearEquation();
-                RunAgainPrompt();
+                // Analyze equation
+                LinearEquation(); // Replace with analyze equation later
+                RunAgainPrompt(); // Replace with exit command later
 
             }
         }

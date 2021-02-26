@@ -4,6 +4,44 @@ namespace EquationSolverProject
 {
     class UserPrompts
     {
+        public static void EnterEquation()
+        {
+            // if object's bool correct == true
+            // break;
+            Console.WriteLine($"Please enter your equation.");
+            string userEquation = Console.ReadLine();
+            Console.WriteLine($"You have entered:\n{userEquation}\nis this correct? Y / N");
+            string correctCheck = Console.ReadLine();
+            if (correctCheck == "Y")
+            {
+                // Set object's bool correct = true;
+                Main();
+            }
+            else if (correctCheck == "N")
+            {
+                EnterEquation();
+            }
+            else
+            {
+
+            }
+
+
+
+
+            // Enter button
+            // Check for validity of characters/equation
+            // Create equation object in class
+            // Send userEquation info into object
+            // Sort equation info into components
+            // Send error if invalid
+            // Graph and factor if valid
+
+            
+        }
+
+
+
         public static void SelectEquation()
         {
             Console.WriteLine($"What kind of equation would you like to solve? \n Please enter a number:");
