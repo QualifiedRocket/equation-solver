@@ -14,7 +14,8 @@ namespace EquationSolverProject
             {
                 
                 EnterEquation();
-                LinearEquation(); // Replace with ReadEquation later
+                EquationObject userEquation = new EquationObject();
+                ReadEquation();
                 RunAgainPrompt(); // Replace with exit command later
 
             }

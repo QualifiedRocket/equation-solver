@@ -14,6 +14,14 @@ namespace EquationSolverProject
         
         
         
+        
         */
+
+        static void ReadEquation()
+        {
+            
+        }
+
+
     }
 }
