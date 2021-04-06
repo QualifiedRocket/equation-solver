@@ -40,23 +40,6 @@ namespace EquationSolverProject
             
         }
 
-
-
-        public static void SelectEquation()
-        {
-            Console.WriteLine($"What kind of equation would you like to solve? \n Please enter a number:");
-            int i = 0;
-            foreach (string s in equationList[])
-            {
-                i++;
-                Console.WriteLine($" {i}. {s}");
-            }
-            int userSelection = Console.ReadLine();
-
-
-
-        }
-
         public static void RunAgainPrompt()
         {
             Console.WriteLine($"Would you like to do it again? Y / N");
