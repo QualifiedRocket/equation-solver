@@ -12,10 +12,9 @@ namespace EquationSolverProject
             bool programRunning = true;
             while (programRunning)
             {
-
-                SelectEquation();
-                // Analyze equation
-                LinearEquation(); // Replace with analyze equation later
+                
+                EnterEquation();
+                LinearEquation(); // Replace with ReadEquation later
                 RunAgainPrompt(); // Replace with exit command later
 
             }
